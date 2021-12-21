@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header';
+import Accordions from './components/Accordions';
+import Middlesection from './components/Middlesection';
+import Hero from './components/Hero';
+import Footer from './components/Footer';
+import Datatable from './components/Datatable';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Header></Header>
+     <Hero></Hero>
+     <Middlesection></Middlesection>
+     <Datatable></Datatable>
+     <Accordions></Accordions>
+     <Footer></Footer>
     </div>
   );
 }
